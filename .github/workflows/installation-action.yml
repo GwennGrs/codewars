@@ -30,4 +30,5 @@ jobs:
           poetry run coverage run -m pytest
           poetry run  coverage report -m
       - name: Generate Coverage Badge
+        id: coverage-badge-py
         uses: tj-actions/coverage-badge-py@v2
