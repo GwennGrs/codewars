@@ -19,3 +19,12 @@ jobs:
 
       - name: Run tests
         run: poetry run pytest
+
+      - name: Coverage Badge
+        uses: actions/checkout@v4
+      - name: Generate coverage report
+        run: |
+          poetry run pytest --cov=your_package tests/
+          poetry run coverage xml
+      - name: Generate Coverage Badge
+        uses: tj-actions/coverage-badge-py@v2
