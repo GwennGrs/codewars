@@ -24,7 +24,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Generate coverage report
         run: |
-          poetry run pytest --cov=your_package tests/
-          poetry run coverage xml
+          pip install coverage
+          poetry run coverage run -m pytest
+          poetry run  coverage report -m
       - name: Generate Coverage Badge
         uses: tj-actions/coverage-badge-py@v2
