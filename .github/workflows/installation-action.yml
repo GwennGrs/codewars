@@ -16,3 +16,6 @@ jobs:
           poetry install
       - name: Verify installation
         run: poetry show
+
+      - name: Run tests
+        run: poetry run pytest
