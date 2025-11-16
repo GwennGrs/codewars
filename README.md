@@ -1,1 +1,1 @@
-[![Install dependencies](https://github.com/GwennGrs/codewars/actions/workflows/installation-action.yml/badge.svg?branch=main)](https://github.com/GwennGrs/codewars/actions/workflows/installation-action.yml)
+![Coverage](https://GwennGrs.github.io/codewars/coverage.svg)
