@@ -36,7 +36,11 @@ jobs:
                     poetry run coverage run -m pytest
                     poetry run coverage report -m
                     poetry run coverage-badge -o coverage.svg
-                    
+            
+            -   name: Pylint
+                run : |
+                    poetry run pylint src/ -faill-under=7.5        
+            
             -   name: Commit and push badge
                 run: |
                     git config --local user.email "bot@github.com"
@@ -45,3 +49,4 @@ jobs:
                     git add coverage.svg
                     git commit -m "Update badge coverage [skip ci]"
                     git push origin main
+            
