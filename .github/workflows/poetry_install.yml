@@ -46,7 +46,7 @@ jobs:
                     git config --local user.email "bot@github.com"
                     git config --local user.name "Action Github"
 
-                    git add coverage.svg
-                    git commit -m "Update badge coverage [skip ci]"
-                    git push origin main
+                    git add -f coverage.svg
+                    git commit -m "Update badge coverage [skip ci]" || echo "Nothing change"
+                    git push origin main || echo "Nothing change"
             
