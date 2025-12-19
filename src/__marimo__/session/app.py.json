@@ -1,0 +1,437 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.18.4"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "e8e38081b7005423df57b71c5c8d8a98",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "NfNC",
+      "code_hash": "795e8d0d26d7498faf7d6cdb871748dc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"sum_multiples_3_5\">sum_multiples_3_5</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "a02849f3d460cedd08f94efa0a10237e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Choose a value :\n<marimo-ui-element object-id='MJUe-0' random-id='b4cbc24e-5c1a-fdab-5bf0-cc1bdc7ef927'><marimo-slider data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Value of n&lt;/span&gt;&lt;/span&gt;&quot;' data-start='0' data-stop='100' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "81d98c948a669b7ad13059f36c22f0c5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>8</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "JWES",
+      "code_hash": "c732fda843fb550e4ed539cc846469b1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"tribonnacci\">tribonnacci</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "sllw",
+      "code_hash": "38d43e8c8740ec1064ddb252f3ef7ff5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Insert number of iteration :\n<marimo-ui-element object-id='sllw-0' random-id='420d03f1-4113-0bb2-bd85-f49cf70b22a6'><marimo-number data-initial-value='1' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;n&lt;/span&gt;&lt;/span&gt;&quot;' data-start='1' data-stop='1000' data-debounce='false' data-full-width='false' data-disabled='false'></marimo-number></marimo-ui-element></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "FFMs",
+      "code_hash": "19fd25127fc1d68c967c3ebc7fbf62c7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Choose which starting array you want :\n<marimo-ui-element object-id='FFMs-0' random-id='1751612d-ba36-cc0e-2666-2ba78e00c55a'><marimo-dropdown data-initial-value='[]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;signature&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;[0, 0, 1]&quot;,&quot;[1, 1, 1]&quot;,&quot;[1, 2, 3]&quot;]' data-allow-select-none='true' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "amYQ",
+      "code_hash": "3a89dad044738cfc4c4bbc494d14de62",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[1, 2, 3, 6, 11]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DGGM",
+      "code_hash": "3f32ab55c43f9c7d4253a666e7ebd128",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"first_non_repeating_letter\">first_non_repeating_letter</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "fVMM",
+      "code_hash": "de6f663c2672062a7f1acce53888a4a9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Insert your string :\n<marimo-ui-element object-id='fVMM-0' random-id='93df78ef-6e2a-b1d5-95c7-f8e09b7052d4'><marimo-text data-initial-value='&quot;&quot;' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;s&lt;/span&gt;&lt;/span&gt;&quot;' data-placeholder='&quot;Word or short sentence&quot;' data-kind='&quot;text&quot;' data-full-width='false' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "tgKj",
+      "code_hash": "3b07129927715ca0a9e7251baa5829e6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&#x27;&#x27;</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TzEN",
+      "code_hash": "1892d5beabf82280c6f2f75685480e24",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"dna_to_rna\">dna_to_rna</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xeGA",
+      "code_hash": "184c10c05f430679bd46ec05ac7fd300",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Insert your string :\n<marimo-ui-element object-id='xeGA-0' random-id='5bd88c88-2c21-4fc0-8756-632f78ed6273'><marimo-text data-initial-value='&quot;&quot;' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;dna&lt;/span&gt;&lt;/span&gt;&quot;' data-placeholder='&quot;Ex: CAGT&quot;' data-kind='&quot;text&quot;' data-full-width='false' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "NNAT",
+      "code_hash": "f8ac2ed941896cfc69b9cb6e41dc14b0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&#x27;&#x27;</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SZXv",
+      "code_hash": "0a87fa5f688993d63733496adb659b05",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"hamming\">hamming</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "NYKl",
+      "code_hash": "677b4ee5a591dc3ac3bff3159e46e70b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZerW",
+      "code_hash": "a5180476077326985392e6ce0d3a44bd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Insert your string :\n<marimo-ui-element object-id='NYKl-0' random-id='f658013a-2c6b-46d8-3f96-028fea4cd347'><marimo-text data-initial-value='&quot;&quot;' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;word1&lt;/span&gt;&lt;/span&gt;&quot;' data-placeholder='&quot;Ex: Boat&quot;' data-kind='&quot;text&quot;' data-full-width='false' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BBiW",
+      "code_hash": "282266c3e945a62a17048a65073224ba",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Insert your string :\n<marimo-ui-element object-id='NYKl-1' random-id='a029daae-9d79-204b-dba1-bba147eed789'><marimo-text data-initial-value='&quot;&quot;' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;word2&lt;/span&gt;&lt;/span&gt;&quot;' data-placeholder='&quot;Ex: Goat&quot;' data-kind='&quot;text&quot;' data-full-width='false' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "AlCy",
+      "code_hash": "ef8dfdd7aba1a2b85f34ddd29bca45ec",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>1</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bbuv",
+      "code_hash": "d7a3ae4a2fbc3c59a3e4725e0f0781ac",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"mse\">mse</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "rYFa",
+      "code_hash": "f502b59b81830e80d37e2b3f6ad185e9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>16.0</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ewFi",
+      "code_hash": "425af709d4e57b8f6dacf8261c69930a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"order\">order</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZXqk",
+      "code_hash": "1ec365fb07a1dee163fc7d2992adc8f0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&#x27;Ne1ver gon2na 3you up4&#x27;</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "AXcl",
+      "code_hash": "b923712b68af5a14b5147bd96cbbebb6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"sum_array\">sum_array</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "OvDL",
+      "code_hash": "8e93a29ccec1457746789e702f5672c2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Insert your number (separate by a coma) :\n<marimo-ui-element object-id='OvDL-0' random-id='4d911271-f68b-3ec2-bc22-5bfea21dc395'><marimo-text data-initial-value='&quot;&quot;' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;list&lt;/span&gt;&lt;/span&gt;&quot;' data-placeholder='&quot;1, 8, 4&quot;' data-kind='&quot;text&quot;' data-full-width='false' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vuwO",
+      "code_hash": "f51b31c396978f45b35d72427b701991",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "sOWs",
+      "code_hash": "97f44833137d2abfb18b7f798dc34c4b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>13</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pOrm",
+      "code_hash": "401fa37c497c967103fc615405826a74",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"move_zeros\">move_zeros</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Ryth",
+      "code_hash": "2bfe7e99368f399f9a632c55ccd67f57",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Insert your number (separate by a coma) :\n<marimo-ui-element object-id='Ryth-0' random-id='31b6c7ee-2a5c-1c15-3a17-13cf58c9a423'><marimo-text data-initial-value='&quot;&quot;' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;list&lt;/span&gt;&lt;/span&gt;&quot;' data-placeholder='&quot;0,1,0,1,0,0,1,0&quot;' data-kind='&quot;text&quot;' data-full-width='false' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PLyJ",
+      "code_hash": "25c2239b9099f95d9b90f289ceb744cd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nxPI",
+      "code_hash": "ddaa0e070b6cb63eca567fcc9e7f1ec0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[1, 1, 0, 0, 0, 0]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SeLI",
+      "code_hash": "f548dbe010b1b67f0dd357fbcc5593ea",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"order_weight\">order_weight</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bxxw",
+      "code_hash": "c3fd3ef00a384e0106663867e21780d3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&#x27;1 1224 154 175&#x27;</pre>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
