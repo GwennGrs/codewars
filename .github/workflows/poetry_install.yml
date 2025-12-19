@@ -39,7 +39,7 @@ jobs:
             
             -   name: Pylint
                 run : |
-                    poetry run pylint src/ -faill-under=7.5        
+                    poetry run pylint src/ -fail-under=7.5        
             
             -   name: Commit and push badge
                 run: |
