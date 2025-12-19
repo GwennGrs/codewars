@@ -13,6 +13,7 @@ This project is part of the required assignments for the **Computer Science Refr
 * **Automated Testing**: Comprehensive unit testing using **Pytest**. A **Coverage badge** is automatically shown in the readme by a GitHub Action.
 * **Dependency**: **Poetry** allow an efficient dependencies management and quick project installation.
 * **Code Quality Control**: Guaranteed **Pylint score of 10/10**. Github action will give and error message for score bellow **7.5**.
+* **Marimo**: Integration of Marimo for more visual test
 
 ### Local Installation
 
