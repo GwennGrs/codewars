@@ -1,1 +1,1 @@
-![Coverage](https://GwennGrs.github.io/codewars/coverage.svg)
+![Coverage](./coverage.svg)
