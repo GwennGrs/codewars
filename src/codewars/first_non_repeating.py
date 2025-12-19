@@ -1,4 +1,6 @@
+"""
 # https://www.codewars.com/kata/52bc74d4ac05d0945d00054e
+"""
 
 def first_non_repeating_letter(s):
     """Return the first letter that is not repeated in our string.
@@ -11,12 +13,11 @@ def first_non_repeating_letter(s):
     """
     dic = {}
     for i, letter in enumerate(s.lower()):
-        if letter in dic.keys():
+        if letter in dic:
             dic[letter].append(i)
-        else : 
+        else :
             dic[letter] = [i]
-        print(dic[letter])
-    for letter in dic.keys():
-        if len(dic[letter]) == 1:
-            return s[dic[letter][0]]
+    for letter, value in dic.items():
+        if len(value) == 1:
+            return s[value[0]]
     return ""

@@ -1,4 +1,6 @@
-#https://www.codewars.com/kata/51edd51599a189fe7f000015
+"""
+https://www.codewars.com/kata/51edd51599a189fe7f000015
+"""
 
 def mean_square_error(array_a, array_b):
     """Compute the mean square error between two arrays.

@@ -1,4 +1,6 @@
-#https://www.codewars.com/kata/514b92a657cdc65150000006
+"""
+https://www.codewars.com/kata/514b92a657cdc65150000006
+"""
 
 def sum_multiples_3_5(n):
     """Sums all the multiplies of 3 or 5 below n
@@ -12,7 +14,7 @@ def sum_multiples_3_5(n):
     total = 0
     if n < 0:
         return total
-    for n in range(n):
-        if ((n % 3 == 0) | (n % 5 == 0)):
-            total += n
+    for i in range(n):
+        if i % 3 == 0 or i % 5 == 0:
+            total += i
     return total

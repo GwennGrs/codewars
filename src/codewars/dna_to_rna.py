@@ -1,4 +1,6 @@
-#https://www.codewars.com/kata/5556282156230d0e5e000089
+"""
+https://www.codewars.com/kata/5556282156230d0e5e000089
+"""
 
 def dna_to_rna(dna):
     """Converts a DNA sequence to its RNA complement. 
@@ -16,6 +18,6 @@ def dna_to_rna(dna):
     for lettre in dna:
         if lettre == "T":
             rsl += "U"
-        else : 
+        else :
             rsl += lettre
     return rsl

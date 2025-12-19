@@ -1,4 +1,4 @@
-from codewars.MSE import mean_square_error
+from codewars.mse import mean_square_error
 import pytest
 
 def test_mse():
