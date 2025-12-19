@@ -38,3 +38,6 @@ format_on_save = true
 
 [tool.marimo.package_management]
 manager = "poetry"
+
+[tool.coverage.run]
+omit = ["src/app.py"]
