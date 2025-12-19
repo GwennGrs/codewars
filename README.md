@@ -29,6 +29,6 @@ poetry install
 
 **2/ Run unit tests and check pylint score**
 ```bash
-poetry install
+poetry run pytest
 poetry run pylint src/codewars
 ```
